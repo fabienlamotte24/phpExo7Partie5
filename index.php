@@ -17,7 +17,9 @@
   <body>
 <p>
   <?php
+  /*Ajout du département 51*/
     $departements[51] = 'reims';
+    /*Affichage de toues les valeurs*/
     echo var_dump($departements);
   ?>
 </p>
